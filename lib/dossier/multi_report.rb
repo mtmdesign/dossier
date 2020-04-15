@@ -12,7 +12,8 @@ class Dossier::MultiReport
   end
 
   def initialize(options = {})
-    self.options = options.to_hash.dup.with_indifferent_access
+    options = options.to_unsafe_h if options.respond_to?(:to_unsafe_h)
+    self.options = options.dup.with_indifferent_access
   end
 
   def reports
