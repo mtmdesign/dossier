@@ -12,8 +12,9 @@ gem "railties",      RAILS_VERSION
 gem "activerecord",  RAILS_VERSION
 
 # gems used by the sample application
+gem 'coveralls', require: false
+gem 'test-unit'
 gem "jquery-rails"
 gem "mysql2"
 gem "pg", '~> 0.15'
-gem 'coveralls', require: false
-gem 'test-unit'
+gem "sqlite3", "~> 1.3"

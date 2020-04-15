@@ -8,6 +8,7 @@ env:
   - "RAILS_VERSION=5.0.7.2"
   - "RAILS_VERSION=5.1.7"
   - "RAILS_VERSION=5.2.3"
+  - "RAILS_VERSION=6.0.0.rc1"
 script: 
   - DOSSIER_DB=sqlite3 bundle exec rspec
   - DOSSIER_DB=mysql2 bundle exec rspec

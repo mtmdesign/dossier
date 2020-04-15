@@ -26,7 +26,6 @@ Gem::Specification.new do |s|
   s.add_dependency "responders",      ">= 2.4"
 
   s.add_development_dependency "activerecord",   ">= 4.2.11.1"
-  s.add_development_dependency "sqlite3",        "~> 1.3.6"
   s.add_development_dependency "pry",            ">= 0.12.1"
   s.add_development_dependency "rspec-rails",    ">= 3.8.2"
   s.add_development_dependency "generator_spec", "~> 0.9.4"
