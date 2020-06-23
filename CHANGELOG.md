@@ -4,6 +4,9 @@ Dossier does its best to use [semantic versioning](http://semver.org).
 
 ## Unreleased
 
+## v3.1.1.pre
+- Fix connection lost after a while when using mysql2 adapter along with DATABASE_URL.
+
 ## v3.1.0.pre
 - Fix with_indifferent_access error
 - Fix Rails 6.0 including Arel in gemspec. Arel is now merged with ActiveRecord.
