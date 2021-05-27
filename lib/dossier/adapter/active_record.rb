@@ -25,7 +25,7 @@ module Dossier
       def with_connection_retry(&block)
         block.call
       rescue StandardError => ex
-        if ex.message.include?("Mysql2::Error: MySQL client is not connected")
+        if ex.message.include?("MySQL client is not connected")
           connection.reconnect!
           block.call
         else

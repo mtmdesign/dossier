@@ -4,6 +4,9 @@ Dossier does its best to use [semantic versioning](http://semver.org).
 
 ## Unreleased
 
+## v3.1.3.pre
+- Mysql2 : Update dirty hack to force reconnection when client is not connected
+
 ## v3.1.2.pre
 - Mysql2 : Dirty hack to force reconnection when client is not connected
 
