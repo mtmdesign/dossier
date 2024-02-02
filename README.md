@@ -11,6 +11,14 @@ Dossier is a Rails engine that turns SQL into reports. Reports can be easily ren
 [![Coverage Status](https://coveralls.io/repos/adamhunter/dossier/badge.svg?branch=master&service=github)](https://coveralls.io/github/adamhunter/dossier?branch=master)
 [![Dependency Status](https://gemnasium.com/adamhunter/dossier.svg)](https://gemnasium.com/adamhunter/dossier)
 
+## Notes on this fork
+
+This fork is customized for our needs and works for Rails ~> 7.0.
+
+It does not support a separate `config/dossier.yml` anymore and will pick a connection from Rails' connection pool.
+
+Tests don't work anymore.
+
 ## Setup
 
 Install the Dossier gem and create `config/dossier.yml`. This has the same format as Rails' `database.yml`, and can actually just be a symlink (from your `Rails.root`: `ln -s database.yml config/dossier.yml`).
