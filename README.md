@@ -21,7 +21,7 @@ Tests don't work anymore.
 
 ## Setup
 
-Install the Dossier gem and create `config/dossier.yml`. This has the same format as Rails' `database.yml`, and can actually just be a symlink (from your `Rails.root`: `ln -s database.yml config/dossier.yml`).
+Install the Dossier gem.
 
 ## Routing
 
